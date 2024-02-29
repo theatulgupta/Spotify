@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo invert">
+            <img src="assets/logo.svg" alt="Logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="assets/home.svg" alt="Home" />Home</li>
+            <li>
+              <img class="invert" src="assets/search.svg" alt="Search" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="assets/playlist.svg" alt="Playlist" />
+            Your Library
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="header flex bg-grey p-1 ic">
+          <div class="nav flex">
+            <div class="flex arrow jc ic">
+              <img class="invert" src="assets/left-arrow.svg" alt="Left" />
+            </div>
+            <div class="flex arrow jc ic">
+              <img class="invert" src="assets/right-arrow.svg" alt="Left" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="btn signup">Sign Up</button>
+            <button class="btn login">Log in</button>
+          </div>
+        </div>
+        <div class="playlists">
+          <div class="playlist-header flex ic">
+            <h3>Spotify Playlists</h3>
+            <p>Show all</p>
+          </div>
+          <div class="card-container flex ic">
+            <div class="card">
+              <div class="play flex">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de"
+                alt=""
+              />
+              <h4>Dinner with Friends</h4>
+              <p>The perfect soundtrack to those long nights over dinner</p>
+            </div>
+            <div class="card">
+              <div class="play flex">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002ec94bf1083be30463d4b731d"
+                alt=""
+              />
+              <h4>Chillhop</h4>
+              <p>
+                Blissed out beats and head nodding grooves - Relax, study and
+                vibe.
+              </p>
+            </div>
+            <div class="card">
+              <div class="play flex">
+                <img src="assets/play.svg" alt="Play" />
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002bdeb1c317ac2dd10f2397e4c"
+                alt=""
+              />
+              <h4 class="truncate">Jazz in the Background</h4>
+              <p>Soft instrumental Jazz for all your activities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
