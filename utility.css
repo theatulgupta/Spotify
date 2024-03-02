@@ -38,3 +38,30 @@
 .p-1 {
   padding: 10px;
 }
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Hide the scrollbar indicator */
+::-webkit-scrollbar {
+  display: none;
+}
